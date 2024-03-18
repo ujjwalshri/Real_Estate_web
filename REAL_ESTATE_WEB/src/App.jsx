@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import NavBar from './components/NavBar';
+<<<<<<< Updated upstream
 function App() {
   return (
     <>
@@ -12,6 +13,21 @@ function App() {
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Click me</button>
     </div>
     </>
+=======
+import Footer from './components/Footer';
+import Home from './components/Home';
+
+function App() {
+  return (
+    <Router> 
+      <>
+        <NavBar />
+        <Home/>
+        
+        <Footer />
+      </>
+    </Router>
+>>>>>>> Stashed changes
   );
 }
 
