@@ -5,6 +5,7 @@ const HeroSection = () => {
     <div>mY SEC
 
       <p>hello</p>
+      <p>d</p>
     </div>
   )
 }
