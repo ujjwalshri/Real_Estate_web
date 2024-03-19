@@ -3,6 +3,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <>
+<<<<<<< Updated upstream
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold">REAL_STATE_DUNIA</div>
@@ -14,6 +15,9 @@ const NavBar = () => {
         </ul>
       </div>
     </nav>
+=======
+    
+>>>>>>> Stashed changes
     </>
   )
   }
